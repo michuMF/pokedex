@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/dfbbd33408.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Pokedex</title>
+
+
+</head>
+
+<body>
+  <div class="shadow">
+  </div>
+  <header>
+    <div class="icon">
+      <label for="search-bar">
+        <h1>Pokemon</h1>
+      </label>
+      <a href="https://pokeapi.co/" target="_blank">
+        <img src="icons8-pokemon-64.png" alt="pokeball">
+      </a>
+    </div>
+    <div class="searchbar">
+
+
+      <input type="search" id="search-bar" placeholder="name or id np. pikachu or 25">
+      <i class="fa-solid fa-magnifying-glass fa-2xl search-btn"></i>
+    </div>
+
+    <nav>
+      <ul>
+        <li>
+          <a class="all-pokemon-btn">Pokemons</a>
+        </li>
+        <li>
+          <a>Items</a>
+        </li>
+        <li>
+          <a>Locations</a>
+        </li>
+
+      </ul>
+      <div class="hamburger-menu">
+        <i class="fa-solid fa-bars fa-2xl menu "></i>
+        <div class="pop-up-menu">
+
+          <ul>
+            <li><a class="all-pokemon-btn">Pokemons</a></li>
+            <li>
+              <a>Items</a>
+            </li>
+            <li>
+              <a>Locations</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <div class="error">
+    <p>
+      Nie ma takiego pokemona
+    </p>
+  </div>
+
+  <main>
+    <div class="pokemon-card">
+      <div class="card-top">
+        <img class="pokemon-image" src="pokemon.png" alt="pokemon">
+
+      </div>
+      <div class="middle-card">
+        <h1 class="name-of-pokemon">Pokedex</h1>
+
+        <div class="stats">
+          <p>HP: <span class="pokemon-hp"></span></p>
+          <p>XP: <span class="pokemon-xp"></span></p>
+        </div>
+
+
+
+      </div>
+      <div class="bottom-card">
+        <div class="type-pokemon">
+          <h2 class="type-of-pokemon-btn">TYPE</h2>
+
+        </div>
+        <div class="biometric">
+          <div>
+            <p>type</p>
+            <p class="type-of-pokemon"></p>
+          </div>
+          <div>
+            <p>weight</p>
+            <p class="weight-of-pokemon"></p>
+          </div>
+          <div>
+            <p>height</p>
+            <p class="height-of-pokemon"></p>
+          </div>
+        </div>
+        <div class="hr">
+          <hr>
+
+        </div>
+
+        <div class="type-pokemon">
+          <h3 class="type-of-pokemon-btn">Attack</h3>
+
+        </div>
+
+
+        <div class="attacks">
+
+
+          <div>
+            <p class="basic-attack">Basic Attack</p>
+
+          </div>
+          <div>
+            <p class="super-attack">Super Attack</p>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+  </main>
+  <section>
+    <div class="pokemon-catalog">
+
+
+  </section>
+  <section>
+    <div class="locations">
+
+
+  </section>
+  <footer>
+
+  </footer>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
